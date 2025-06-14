@@ -1,7 +1,0 @@
-  from ubuntu:latest
-  workdir /app
-  copy . /app
-  run apt-get update && apt-get install -y python3 python3-pip
-  env NAME World 
-  cmd ["python3", "appy.py"]
-    
